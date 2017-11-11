@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>First practical task</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="b-container">
+
+    <script>
+
+        var name = prompt("Введите Ваше имя");
+        while (name.length < 1){
+            name = prompt("Введите Ваше имя");
+        }
+
+        var age = prompt("Введите Ваш возраст");
+        while (age.length < 1){
+            age = prompt("Введите Ваш возраст");
+        }
+
+        if (age < 18){
+            alert("Здарова, " + name + " как твои " + age + "?");
+        } else{
+            alert("Приветствую, " + name + ". Уж " + age + " лет прошло");
+        }
+
+    </script>
+
+    </div>
+
+</body>
+</html>
